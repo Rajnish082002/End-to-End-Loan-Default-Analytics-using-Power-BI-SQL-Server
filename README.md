@@ -1,22 +1,48 @@
-# 📊 Loan Default Dashboard (250K+ Records)
+# 📊 Loan Default Risk Analytics Dashboard (250K+ Records)
 
 ## 📌 Project Overview
-This project focuses on analyzing borrower data to identify key factors contributing to loan defaults using an end-to-end Business Intelligence workflow in Power BI.
+Designed and developed an end-to-end **Loan Default Risk Analytics Dashboard** to identify high-risk borrower segments using Power BI and SQL Server.
 
-The dataset containing ~250,000 loan records was initially provided in Excel and integrated into Microsoft SQL Server. Power BI Dataflows were used to centralize and manage the dataset for scalable cloud-based analytics.
+Processed and analyzed a large-scale dataset of **250,000+ loan records** by integrating Excel data into Microsoft SQL Server for structured storage and scalable analytics using **Power BI Dataflows**.
 
-Data cleaning and transformation were performed using Power Query, followed by data modeling and creation of calculated measures using DAX functions such as CALCULATE, AVERAGEX, MEDIANX, ALLEXCEPT, and SWITCH.
+Performed data cleaning, transformation, and feature engineering using **Power Query**, followed by data modeling and KPI creation using advanced **DAX functions** such as:
 
-An interactive dashboard was developed to monitor KPIs including Default Rate, Average Loan Amount, Income Distribution, and Credit Score-based Risk Segmentation. YOY and YTD trend analysis was also implemented to track loan performance over time.
+- CALCULATE  
+- AVERAGEX  
+- MEDIANX  
+- ALLEXCEPT  
+- SWITCH  
 
-Scheduled Refresh and Incremental Refresh were configured in Power BI Service to efficiently handle large datasets and enable automated reporting.
+Built an interactive dashboard to monitor critical financial KPIs including:
 
-This dashboard helps financial institutions identify high-risk borrower segments and supports data-driven loan approval decisions.
+- Loan Default Rate  
+- Average Loan Amount  
+- Borrower Income Distribution  
+- Credit Score-Based Risk Segmentation  
+- YOY / YTD Loan Performance Trends  
+
+Configured **Scheduled Refresh** and **Incremental Refresh** in Power BI Service to efficiently handle large datasets and enable automated real-time reporting.
+
+---
+
+## 🖼️ Dashboard Preview
+
+### 📍 Executive Overview
+<img width="1289" height="727" alt="Loan Default Dashboard" src="https://github.com/user-attachments/assets/439d1af8-cf61-4aa8-ae40-24bad826f6c9" />
+
+### 📍 Risk Segmentation Analysis
+<img width="1289" height="727" alt="Risk Segmentation" src="https://github.com/user-attachments/assets/cc1db8d3-522c-4f28-9c54-ac322546967a" />
+
+### 📍 Income & Employment Insights
+<img width="1286" height="720" alt="Income Analysis" src="https://github.com/user-attachments/assets/faf8ed13-a54c-46b5-b837-f102a62a8310" />
+
+### 📍 Loan Performance Trends
+<img width="1284" height="721" alt="Loan Trends" src="https://github.com/user-attachments/assets/d3d4cf06-fbe0-42ac-905c-ea8f984538b6" />
 
 ---
 
 ## 🛠️ Tools & Technologies
-- Power BI  
+- Microsoft Power BI  
 - SQL Server  
 - Power Query  
 - DAX  
@@ -26,33 +52,35 @@ This dashboard helps financial institutions identify high-risk borrower segments
 ---
 
 ## 📊 Key Features
-- Analysis of ~250,000 loan records  
+- Analysis of 250K+ borrower records  
 - Borrower Risk Segmentation  
-- Default Rate Analysis  
-- Income & Employment Insights  
+- Loan Default Rate Monitoring  
+- Income & Employment Analysis  
+- Credit Score Risk Categorization  
 - YOY / YTD Loan Trend Analysis  
-- Automated Data Refresh  
+- Automated Scheduled Refresh  
+- Incremental Data Load Handling  
 
 ---
 
 ## 📁 Project Workflow
-1. Imported Excel dataset into SQL Server  
-2. Connected SQL Server to Power BI Dataflow  
-3. Performed Data Cleaning using Power Query  
-4. Created DAX Measures for KPI Analysis  
-5. Developed Interactive Dashboard  
+1. Imported raw Excel dataset into SQL Server  
+2. Connected SQL Server to Power BI Dataflows  
+3. Cleaned and transformed data using Power Query  
+4. Created KPI measures using DAX  
+5. Built interactive analytical dashboards  
 6. Implemented Scheduled & Incremental Refresh  
-7. Published Report to Power BI Service  
+7. Published reports on Power BI Service  
 
 ---
 
-## 📈 Business Insights
-- Identified high-risk borrower segments  
-- Analyzed default trends based on income & employment  
-- Evaluated loan performance using credit score categories  
-- Improved decision-making through automated reporting  
+## 📈 Business Insights Generated
+- Identified high-risk borrower profiles  
+- Default patterns based on income & employment  
+- Credit score-based loan risk segmentation  
+- Loan performance trends across time  
 
 ---
 
-## 🚀 Outcome
-Enabled financial institutions to make data-driven lending decisions by identifying loan default risk patterns using interactive dashboards.
+## 🚀 Business Impact
+Enabled financial institutions to make **data-driven lending decisions** by proactively identifying loan default risk patterns using automated and scalable BI reporting.
