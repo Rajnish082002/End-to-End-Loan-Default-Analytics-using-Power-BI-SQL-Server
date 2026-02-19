@@ -1,83 +1,90 @@
 # 📊 Loan Default Risk Analytics Dashboard (250K+ Records)
 
-## 📌 Project Overview
-Designed and developed an end-to-end **Loan Default Risk Analytics Dashboard** to identify high-risk borrower segments using Power BI and SQL Server.
-
-Processed and analyzed a large-scale dataset of **250,000+ loan records** by integrating Excel data into Microsoft SQL Server for structured storage and scalable analytics using **Power BI Dataflows**.
-
-Performed data cleaning, transformation, and feature engineering using **Power Query**, followed by data modeling and KPI creation using advanced **DAX functions** such as:
-
-- CALCULATE  
-- AVERAGEX  
-- MEDIANX  
-- ALLEXCEPT  
-- SWITCH  
-
-Built an interactive dashboard to monitor critical financial KPIs including:
-
-- Loan Default Rate  
-- Average Loan Amount  
-- Borrower Income Distribution  
-- Credit Score-Based Risk Segmentation  
-- YOY / YTD Loan Performance Trends  
-
-Configured **Scheduled Refresh** and **Incremental Refresh** in Power BI Service to efficiently handle large datasets and enable automated real-time reporting.
+### Dashboard Link : 
+https://app.powerbi.com/groups/me/reports/13204f37-ee7d-45ac-9ef4-05bfe9f7f245/cea30e78a258b8957e3a?experience=power-bi
 
 ---
 
-## 🖼️ Dashboard Preview
+## Problem Statement
 
-### 📍 Loan Default & Overview
+This dashboard helps financial institutions understand borrower behavior and identify key factors contributing to loan defaults.
+
+It helps lenders analyze borrower characteristics such as income level, employment status, and credit score to evaluate the likelihood of loan repayment.
+
+Through various financial KPIs, organizations can identify high-risk borrower segments and take proactive measures to reduce potential loan default risks.
+
+Since a significant number of borrowers fall into medium to high-risk categories, financial institutions must improve their loan approval and risk assessment strategies.
+
+Additionally, the dashboard highlights loan performance trends over time using YOY and YTD analysis, allowing stakeholders to make data-driven lending decisions.
+
+---
+
+### Steps Followed
+
+- Step 1 : Loaded borrower dataset containing 250,000+ loan records from Excel into SQL Server.
+- Step 2 : Connected SQL Server database with Power BI using Dataflows.
+- Step 3 : Opened Power Query Editor and enabled:
+  - Column Distribution  
+  - Column Quality  
+  - Column Profile  
+- Step 4 : Performed data cleaning and handled missing values using Power Query.
+- Step 5 : Transformed borrower attributes such as income level, employment status, and credit score.
+- Step 6 : Created calculated KPI measures using DAX functions such as:
+  - CALCULATE  
+  - AVERAGEX  
+  - MEDIANX  
+  - ALLEXCEPT  
+  - SWITCH  
+- Step 7 : Developed financial KPIs including:
+  - Loan Default Rate  
+  - Average Loan Amount  
+  - Borrower Income Distribution  
+  - Credit Score-Based Risk Segmentation  
+- Step 8 : Implemented Year-over-Year (YOY) and Year-to-Date (YTD) trend analysis.
+- Step 9 : Designed interactive dashboard visuals and slicers.
+- Step 10 : Configured Scheduled Refresh and Incremental Refresh in Power BI Service.
+- Step 11 : Published report to Power BI Service for automated reporting.
+
+---
+
+# Snapshot of Dashboard (Power BI Service)
+
+### Executive Overview
 <img width="1289" height="727" alt="Loan Default Dashboard" src="https://github.com/user-attachments/assets/439d1af8-cf61-4aa8-ae40-24bad826f6c9" />
 
-### 📍 Applicant Demographic & Financial profile
+### Risk Segmentation Analysis
+<img width="1289" height="727" alt="Risk Segmentation" src="https://github.com/user-attachments/assets/cc1db8d3-522c-4f28-9c54-ac322546967a" />
+
+### Income & Employment Insights
 <img width="1286" height="720" alt="Income Analysis" src="https://github.com/user-attachments/assets/faf8ed13-a54c-46b5-b837-f102a62a8310" />
 
-### 📍 Financial Risk Matrix
+### Loan Performance Trends
 <img width="1284" height="721" alt="Loan Trends" src="https://github.com/user-attachments/assets/d3d4cf06-fbe0-42ac-905c-ea8f984538b6" />
 
 ---
 
-## 🛠️ Tools & Technologies
-- Microsoft Power BI  
-- SQL Server  
-- Power Query  
-- DAX  
-- Power BI Dataflows  
-- Microsoft Excel  
+# Insights
 
----
+A multi-page analytical report was created on Power BI Desktop and published to Power BI Service.
 
-## 📊 Key Features
-- Analysis of 250K+ borrower records  
-- Borrower Risk Segmentation  
-- Loan Default Rate Monitoring  
-- Income & Employment Analysis  
-- Credit Score Risk Categorization  
-- YOY / YTD Loan Trend Analysis  
-- Automated Scheduled Refresh  
-- Incremental Data Load Handling  
+Following inferences can be drawn from the dashboard;
 
----
+### [1] Borrower Risk Segmentation
+- Identified high-risk borrower segments based on credit score.
+- Low credit score borrowers contributed significantly to loan defaults.
 
-## 📁 Project Workflow
-1. Imported raw Excel dataset into SQL Server  
-2. Connected SQL Server to Power BI Dataflows  
-3. Cleaned and transformed data using Power Query  
-4. Created KPI measures using DAX  
-5. Built interactive analytical dashboards  
-6. Implemented Scheduled & Incremental Refresh  
-7. Published reports on Power BI Service  
+### [2] Income Analysis
+- Borrowers with unstable or low income showed higher default probability.
+- Loan default trends varied significantly across income groups.
 
----
+### [3] Employment Insights
+- Borrowers with irregular employment history were more likely to default.
+- Employment stability influenced repayment behavior.
 
-## 📈 Business Insights Generated
-- Identified high-risk borrower profiles  
-- Default patterns based on income & employment  
-- Credit score-based loan risk segmentation  
-- Loan performance trends across time  
+### [4] Loan Performance Trends
+- YOY and YTD analysis highlighted seasonal loan repayment patterns.
+- Loan performance varied across different borrower categories.
 
----
-
-## 🚀 Business Impact
-Enabled financial institutions to make **data-driven lending decisions** by proactively identifying loan default risk patterns using automated and scalable BI reporting.
+### [5] Credit Score Evaluation
+- High credit score borrowers demonstrated better repayment behavior.
+- Medium-risk borrowers required further evaluation before loan approval.
