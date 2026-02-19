@@ -49,10 +49,7 @@ Additionally, the dashboard highlights loan performance trends over time using Y
 
 # Snapshot of Dashboard (Power BI Service)
 
-### Executive Overview
-<img width="1289" height="727" alt="Loan Default Dashboard" src="https://github.com/user-attachments/assets/439d1af8-cf61-4aa8-ae40-24bad826f6c9" />
-
-### Risk Segmentation Analysis
+### Loan Default & Overview
 <img width="1289" height="727" alt="Risk Segmentation" src="https://github.com/user-attachments/assets/cc1db8d3-522c-4f28-9c54-ac322546967a" />
 
 ### Income & Employment Insights
