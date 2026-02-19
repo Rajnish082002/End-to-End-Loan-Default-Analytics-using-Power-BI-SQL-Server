@@ -27,16 +27,13 @@ Configured **Scheduled Refresh** and **Incremental Refresh** in Power BI Service
 
 ## 🖼️ Dashboard Preview
 
-### 📍 Executive Overview
+### 📍 Loan Default & Overview
 <img width="1289" height="727" alt="Loan Default Dashboard" src="https://github.com/user-attachments/assets/439d1af8-cf61-4aa8-ae40-24bad826f6c9" />
 
-### 📍 Risk Segmentation Analysis
-<img width="1289" height="727" alt="Risk Segmentation" src="https://github.com/user-attachments/assets/cc1db8d3-522c-4f28-9c54-ac322546967a" />
-
-### 📍 Income & Employment Insights
+### 📍 Applicant Demographic & Financial profile
 <img width="1286" height="720" alt="Income Analysis" src="https://github.com/user-attachments/assets/faf8ed13-a54c-46b5-b837-f102a62a8310" />
 
-### 📍 Loan Performance Trends
+### 📍 Financial Risk Matrix
 <img width="1284" height="721" alt="Loan Trends" src="https://github.com/user-attachments/assets/d3d4cf06-fbe0-42ac-905c-ea8f984538b6" />
 
 ---
